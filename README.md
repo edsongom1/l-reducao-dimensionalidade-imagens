@@ -24,35 +24,13 @@ Este projeto implementa técnicas de redução de dimensionalidade em imagens co
 - ✅ **Visualização Comparativa**: Display lado a lado das três representações
 - ✅ **Exportação de Resultados**: Salvamento da análise completa em PNG
 - ✅ **Interface Gráfica**: Seleção intuitiva de arquivos via Tkinter
--
-- 
-ML - Redução de Dimensionalidade em Imagens para Redes Neurais
-Mostrar Imagem
-Mostrar Imagem
-Mostrar Imagem
 
-📋 Descrição
-Este projeto implementa técnicas de redução de dimensionalidade em imagens como etapa de pré-processamento para redes neurais. O sistema processa imagens coloridas (RGB) convertendo-as para tons de cinza e posteriormente para formato binário, demonstrando conceitos fundamentais de processamento de imagens aplicados ao Machine Learning.
-
-🎯 Objetivos
-Demonstrar técnicas de redução de dimensionalidade em imagens
-Implementar conversão RGB para escala de cinza usando pesos perceptuais
-Aplicar binarização baseada em threshold adaptativo
-Visualizar e comparar as diferentes representações da imagem
-Preparar dados de imagem para entrada em redes neurais
-🚀 Funcionalidades
-✅ Carregamento de Imagens: Suporte para formatos PNG, JPG, JPEG e BMP
-✅ Conversão para Escala de Cinza: Implementação com pesos perceptuais (0.299R + 0.587G + 0.114B)
-✅ Binarização Adaptativa: Threshold baseado na média dos pixels
-✅ Visualização Comparativa: Display lado a lado das três representações
-✅ Exportação de Resultados: Salvamento da análise completa em PNG
-✅ Interface Gráfica: Seleção intuitiva de arquivos via Tkinter
-🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 Python 3.7+
 NumPy: Operações matriciais e processamento numérico
 Matplotlib: Visualização e manipulação de imagens
 Tkinter: Interface gráfica para seleção de arquivos
-📦 Instalação
+## 📦 Instalação
 Pré-requisitos
 bash
 python --version  # Verificar Python 3.7+
