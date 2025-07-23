@@ -41,7 +41,7 @@ Clone do Repositório
 bash
 git clone https://github.com/edsongom1/l-reducao-dimensionalidade-imagens.git
 cd l-reducao-dimensionalidade-imagens
-💻 Como Usar
+## 💻 Como Usar
 Execução Básica
 bash
 python projeto-imagempb.py
@@ -61,7 +61,7 @@ Desenvolvido por Edson Gomes Chaves - 07/2025 - Dio.me
 [INFO] Selecione uma imagem para iniciar o processamento...
 [INFO] Threshold para binarização: 127
 [SUCESSO] Imagem salva em: resultado_analise.png
-🔬 Metodologia Técnica
+## 🔬 Metodologia Técnica
 Conversão RGB → Escala de Cinza
 Utiliza a fórmula padrão de luminância perceptual:
 
@@ -72,24 +72,24 @@ Aplica threshold baseado na média aritmética dos pixels:
 python
 threshold = np.mean(imagem_cinza)
 imagem_binaria = np.where(imagem_cinza >= threshold, 255, 0)
-📊 Estrutura do Projeto
+## 📊 Estrutura do Projeto
 projeto-imagempb.py
 ├── carregar_imagem()          # Interface de seleção
 ├── ler_imagem()              # Carregamento e normalização
 ├── converter_para_cinza()     # Conversão RGB → Grayscale
 ├── binarizar()               # Threshold adaptativo
 └── exibir_e_salvar()         # Visualização e exportação
-🔧 Parâmetros Configuráveis
+## 🔧 Parâmetros Configuráveis
 Pesos RGB: Modificar constantes w_r, w_g, w_b para diferentes conversões
 Threshold: Alterar método de cálculo em binarizar()
 Resolução de Saída: Ajustar DPI no salvamento
 Formatos Suportados: Expandir lista em filedialog.askopenfilename()
-📈 Aplicações em ML
+## 📈 Aplicações em ML
 Pré-processamento: Redução de dimensionalidade (RGB → Grayscale → Binary)
 Feature Extraction: Simplificação de características visuais
 Data Augmentation: Base para técnicas de aumento de dados
 Computer Vision: Preparação para CNNs e algoritmos de visão
-🤝 Contribuições
+## 🤝 Contribuições
 Contribuições são bem-vindas! Para contribuir:
 
 Fork o projeto
@@ -97,19 +97,19 @@ Crie uma branch para sua feature (git checkout -b feature/AmazingFeature)
 Commit suas mudanças (git commit -m 'Add some AmazingFeature')
 Push para a branch (git push origin feature/AmazingFeature)
 Abra um Pull Request
-📄 Licença
+## 📄 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-👨‍💻 Autor
+## 👨‍💻 Autor
 Edson Gomes Chaves
 
-📧 Email: edsgom@gmail.com
-🎓 Projeto: Dio - BairesDev - Machine Learning Training
-📅 Data: Julho/2025
-🏢 Instituição
+## 📧 Email: edsgom@gmail.com
+## 🎓 Projeto: Dio - BairesDev - Machine Learning Training
+## 📅 Data: Julho/2025
+## 🏢 Instituição
 Desenvolvido como parte do programa de treinamento em Machine Learning:
 
 Dio - BairesDev - Machine Learning Training
 
-⭐ Se este projeto foi útil para você, considere dar uma estrela no repositório!
+##⭐ Se este projeto foi útil para você, considere dar uma estrela no repositório!
 
